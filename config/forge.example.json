@@ -1,0 +1,25 @@
+{
+  "$comment": "Copy to forge.json at the repository root and edit. forge.json is git-ignored.",
+  "owner": "your-github-user",
+  "runnerRoot": "C:\\actions-runner",
+  "wslDistro": "Ubuntu",
+  "gitBashBin": "C:\\Program Files\\Git\\bin",
+  "mavenVersion": "3.9.16",
+  "devDrive": {
+    "enabled": true,
+    "vhdxPath": "C:\\DevDrives\\actions-runner.vhdx",
+    "sizeGB": 150,
+    "defenderExclusion": false
+  },
+  "alerts": {
+    "queueMinutes": 10
+  },
+  "repos": [
+    {
+      "name": "my-app",
+      "windows": 1,
+      "linux": 2,
+      "python": ["3.12"]
+    }
+  ]
+}

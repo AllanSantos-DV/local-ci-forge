@@ -1,0 +1,3 @@
+* text=auto
+# Bash scripts run inside WSL straight from the Windows checkout: they must stay LF even with core.autocrlf=true.
+*.sh text eol=lf
